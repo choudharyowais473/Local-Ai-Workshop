@@ -104,7 +104,8 @@ This project sets up a fully local AI development environment using lightweight 
 - Running both simultaneously depends on available RAM
 
 ---
-
+See device performance: [DEVICE_SPECS.md](./DEVICE_SPECS.md)
+---
 🧠 Future Improvements
 
 - Add model auto-switching based on prompt type
