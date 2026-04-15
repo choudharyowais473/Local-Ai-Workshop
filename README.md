@@ -1,4 +1,4 @@
-🧠 Local AI Development Environment (Offline LLM Setup)
+🧠 Local AI Development Environment on Android/mobile devices(Offline LLM Setup)
 
 🚀 Overview
 
