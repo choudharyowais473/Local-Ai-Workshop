@@ -4,6 +4,13 @@ Before running any model, you must compile "llama.cpp" to generate the executabl
 
 ---
 
+📥 Step 0: Clone Repository (if not already done)
+
+git clone https://github.com/ggerganov/llama.cpp
+cd llama.cpp
+
+---
+
 📁 Step 1: Navigate to llama.cpp
 
 cd ~/ai-project/setup/llama.cpp
@@ -12,19 +19,27 @@ cd ~/ai-project/setup/llama.cpp
 
 🔄 Step 2: Install Build Tools
 
+pkg update
 pkg install clang make cmake -y
 
 ---
 
 ⚙️ Step 3: Compile the Project
 
+🔹 Option 1 (Simple - Recommended)
+
 make
 
 ---
 
-📦 Step 4: Verify Build
+🔹 Option 2 (Modern - CMake)
 
-After successful compilation, you should see:
+cmake -B build
+cmake --build build
+
+---
+
+📦 Step 4: Verify Build
 
 ls
 
@@ -39,7 +54,7 @@ main
 
 - Compilation may take a few minutes
 - Ensure sufficient storage and RAM
-- Run this step only once (unless you update the repo)
+- Run this step only once (unless updating the repo)
 
 ---
 
@@ -50,8 +65,6 @@ You now have the "server" executable required to run your local AI models.
 ---
 
 🚀 Next Step
-
-Run:
 
 ./start_ai.sh
 
